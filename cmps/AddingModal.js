@@ -27,7 +27,6 @@ export default {
                             </select>
                         </div> 
                         <div class="control">
-                            <span><img :src="tagSrc"/></span>
                         </div>
                     </div>
                 </div>

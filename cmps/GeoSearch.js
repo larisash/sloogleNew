@@ -11,7 +11,9 @@ export default {
                 <input type="text" class="input" v-model="addressQuery" @keyup.enter="searchClicked"/>
             </div>
             <div class="control">
-                 <button class="button btn-blue" @click="searchClicked"><i class="fa fa-search"></i></button>
+                 <button class="button btn-blue" @click="searchClicked">
+                 <i class="fa fa-search"></i>
+                 </button>
             </div>
         </div>
         <div class="suggest-list">
