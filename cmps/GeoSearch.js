@@ -15,7 +15,7 @@ export default {
             </div>
         </div>
         <div class="suggest-list">
-            <ul class="menu-list">
+            <ul class="menu-list ">
                 <strong>
                     <li v-for="(suggest,index) in suggests" :key="index" @click="suggestClicked(index)">
                         <a>{{suggest.formatted_address}} </a> 
